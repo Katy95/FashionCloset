@@ -6,74 +6,26 @@
     <title>CLOTHING</title>
     <link
       rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css" media="all"/>
-        <link rel="stylesheet" href="css/style.css" media="screen" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css"/>
+    
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </head>
 
   <body>
     <style>
-      .navbar-nav > li > a:hover {
-        background: #8e7c69 !important;
-        color: #fff !important;
-      }
-      .navbar-nav > li:last-of-type > a {
-        border: 0;
-      }
-      .navbar-default {
-        background-color: #a79785;
-        border-color: #a79785;
-      }
-      .navbar-default .navbar-nav > li > a {
-        color: #fff;
-        font-size: 1.5rem;
-      }
-      .navbar-default .navbar-brand {
-        color: white;
-      }
-      .navbar-default .navbar-toggle .icon-bar {
-        background-color: white;
-      }
-      @media (min-width: 768px) {
-        .navbar-nav > li > a {
-          text-align: center;
-          border-right: 1px solid rgba(0, 0, 0, 0.1);
-        }
-      }
+
     </style>
 
     <div class="container-fluid">
-     <div class="row">
+     <div class="row" style="margin:0px;">
          
         <div class="col-lg-3">
       <div id="title">
         <p><span>Fashion</span> Closet</p>
       </div>
       </div>
-<!--
-      <div id="sign">
-        <ul>
-            <li><a href="login.html">Sign in</a></li>
-            <li><a href="signup.php">Sign up</a></li>
-        </ul>
-       </div>
--->
-<!--
-       <div id="user">
-        <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Welcome, Katy<span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-                <li><a href="#">Swing</a></li>
-                <li><a href="#">jMeter</a></li>
-                <li><a href="#">EJB</a></li>
-                <li class="divider"></li>
-                <li><a href="#">分离的链接</a></li>
-            </ul>
-        </li>
-    </div>
--->
-     <div class="col-lg-7 col-md-10">
+     <div class="col-lg-6 col-md-10">
       <nav class="navbar navbar-default equinav" role="navigation">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -86,7 +38,7 @@
         <!-- /.navbar-header -->
 
         <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav" style="width:100.1%;">
             <li><a href="#">HOME</a></li>
             <li><a href="#">POPULAR</a></li>
             <li><a href="#">CLOTHING</a></li>
@@ -97,7 +49,7 @@
         <!-- /.navbar-collapse -->
       </nav>
       </div>
-      <div class="col-lg-2 col-md-2">             
+      <div id="user-sign" class="col-lg-3 col-md-2">             
 <!--
       <div id="sign">
         <ul>
@@ -108,8 +60,26 @@
 -->
        <div id="user">
         <ul>
-            <li><a href="#">MY CLOSET</a></li>
-            <li><a href="#"><img src="icon/AI_user.png" alt="user icon"></a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <img src="icon/AI_user.png" alt="user icon"><span class="caret"></span>
+                </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a href="#">Cart</a></li>
+            <li>
+                <a href="#">Closet</a>
+            </li>
+            <li>
+                <a href="#">My profile</a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="#">Log out</a></li>
+            </ul>
+            </li>
+            <li><p>User</p></li>
+            
         </ul>
         </div>
       </div>
