@@ -103,7 +103,7 @@
                     <div id="get_product"> 
                        <div class="product_box">
                             <a href="itmedetail.php">
-                                <img src="" alt="">
+                                <img src="images/'90s%20Fit%20Jeans-White%20Out.jpg" alt="'90s 20Fit 20Jeans-White 20Out.jpg">
                             </a>
                         </div>
                     </div>
