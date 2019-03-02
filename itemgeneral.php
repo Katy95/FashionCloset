@@ -92,14 +92,24 @@
 	           <li class="active">Clothing</li>
             </ol>
         </div>
-        <div class="col col-md-2">
-                <div id="get_size"></div>
+        <div class="row">
+            <div class="col col-md-2">
+                    <div id="get_category">
+                        
+                    </div>
             </div>
             <div class="col col-md-10">
                 <div class="shopping-list">
-                <div id="get_product"></div>
+                    <div id="get_product"> 
+                       <div class="product_box">
+                            <a href="itmedetail.php">
+                                <img src="" alt="">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
         <div class="clearfloat"></div>
     </div>
     <div id="footer">
